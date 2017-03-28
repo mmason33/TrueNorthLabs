@@ -10,10 +10,9 @@
                      'menu_id'           => 'primary-menu',
                      'menu_class'        => 'menu dropdown',
                      'depth'             => 3
-                 ));
+									));
              ?>
       	    </nav><!-- #off-canvas-nav -->
-
       		</div><!-- .wrap -->
       	</header>
 				<div class="overlay"></div>

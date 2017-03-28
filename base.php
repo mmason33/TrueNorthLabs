@@ -17,9 +17,7 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
-      if(!is_page_template('page-with-sidebar.php') && !is_page_template('leadership.php')):
-        get_template_part('includes/hero-section');
-      endif;
+      get_template_part('includes/hero-section');
     ?>
     <?php if(get_field('main_bg_color') != ''): ?>
       <section class="section-title" style="background-color:<?php echo get_field('main_bg_color'); ?>">
@@ -32,7 +30,13 @@ use Roots\Sage\Wrapper;
       </div>
     </section>
   <?php else: ?>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
     <?php include Wrapper\template_path(); ?>
+        </div>
+      </div>
+    </div>
   <?php endif; ?>
     <?php
       do_action('get_builder');

@@ -1,4 +1,7 @@
 /* == GLOBAL STYLES ---- MAIN COLOR #3ABEA6($brand-primary) ---- == */
+// Grey #6d6e72 for headline color
+// Grey #6b6b6b for lead text color
+
 
 *::selection{
     background: $brand-primary !important;
@@ -7,12 +10,12 @@
     background: $brand-primary !important;
 }
 body{
-  font-family: 'Montserrat';
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1em;
   line-height: 1.2em;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Montserrat';
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.2em;
   color: #6d6e72;
   margin-bottom: .25em;
@@ -34,9 +37,10 @@ h5{
   font-size: 1em;
 }
 p{
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.85em;
   color: #6b6b6b;
+  font-weight: 300;
 }
 ul,ol{
       margin: 1.5em 0;

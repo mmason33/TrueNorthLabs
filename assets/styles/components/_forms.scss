@@ -13,7 +13,7 @@
   }
   .wpcf7-form{
     padding: 2em;
-    background: #ebebeb;
+    background: transparent;
     .row.sub{
       margin-top: 1em;
     }
@@ -22,7 +22,7 @@
       background: transparent;
       color: #fff;
       border:none;
-      background: $brand-complimentary;
+      background: $brand-primary;
       width: 100%;
       padding: 15px;
       border-radius: 10px;
