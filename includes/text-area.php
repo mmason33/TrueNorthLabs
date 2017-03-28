@@ -1,7 +1,7 @@
 <?php
 
 $textBox = get_sub_field('text_box');
-$fullWidth = (get_sub_field('full_width') == 1 ? '-fluid wrap' : '');
+$fullWidth = (get_sub_field('full_width') == 1 ? '-fluid' : '');
 $bgColor = get_sub_field('bg_color');
 $bgImage = get_sub_field('bg_image');
 $bgRepeat = (get_sub_field('bg_repeat') == 1 ? 'repeat' : 'no-repeat');
@@ -9,6 +9,7 @@ $bgPosition = get_sub_field('bg_position');
 $sideBar = get_sub_field('sidebar_checkbox');
 $textCenter = (get_sub_field('text_center') == 1 ? 'text-center' : '');
 $padding = get_sub_field('padding');
+$fixed = (get_sub_field('fixed') != 0 ? 'fixed' : '');
 ?>
 <section class="text-box-wrap <?php echo $padding; ?>"
 <?php
@@ -16,7 +17,7 @@ $padding = get_sub_field('padding');
 	if(!empty($bgImage)){
 
 ?>
-style="background: url('<?php echo $bgImage; ?>') <?php echo $bgRepeat;?>;background-position:<?php echo $bgPosition;?>;background-size:cover;">
+style="background: url('<?php echo $bgImage; ?>') <?php echo $fixed; ?> <?php echo $bgRepeat;?>;background-position:<?php echo $bgPosition;?>;background-size:cover;">
 <?php
 }else{
 ?>

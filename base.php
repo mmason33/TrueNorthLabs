@@ -21,8 +21,19 @@ use Roots\Sage\Wrapper;
         get_template_part('includes/hero-section');
       endif;
     ?>
-
+    <?php if(get_field('main_bg_color') != ''): ?>
+      <section class="section-title" style="background-color:<?php echo get_field('main_bg_color'); ?>">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <?php include Wrapper\template_path(); ?>
+          </div>
+        </div>
+      </div>
+    </section>
+  <?php else: ?>
     <?php include Wrapper\template_path(); ?>
+  <?php endif; ?>
     <?php
       do_action('get_builder');
       get_template_part('includes/builder');

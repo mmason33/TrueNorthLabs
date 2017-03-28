@@ -1,0 +1,31 @@
+.column-body{
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: #6b6b6b;
+}
+.column-headline{
+  margin-top: .5em;
+}
+.column-icon{
+  color: $brand-primary;
+}
+.column-content{
+  margin-bottom: 4em;
+}
+.columns-section{
+  padding: 2em 0;
+}
+.column-wrap{
+  background: #e3e3e3;
+  padding: 3em;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px #000;
+}
+.column-read-more{
+  background: $brand-primary;
+  color: $brand-secondary;
+  &:hover{
+    color:#fff;
+  }
+}

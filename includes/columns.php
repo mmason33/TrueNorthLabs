@@ -29,19 +29,25 @@ $justifyContentCenter = (get_sub_field('justify_content_center') != '' ? ' justi
   $i = 1;
   if(have_rows('column_content') ):
     while( have_rows('column_content') ) : the_row();
-      $columnIcon = (get_sub_field('column_icon') != '' ? '<i class="fa '.get_sub_field('column_icon').' fa-4x column-icon"></i>' : '');
-      $columnHeadline = get_sub_field('column_headline');
+      $columnIcon = (get_sub_field('column_icon') != '' ? '<i class="fa '.get_sub_field('column_icon').' fa-3x column-icon"></i>' : '');
+      $columnHeadline = (get_sub_field('column_headline') != '' ? '<h4 class="column-headline">'.get_sub_field('column_headline').'</h4>' : '');
       $columnBody = (get_sub_field('column_body') != '' ? '<p class="column-body">'.get_sub_field('column_body').'</p>' : '');
       $columnImage = (get_sub_field('column_image') != '' ? '<div class="column-image" style="background:url('.get_sub_field('column_image').') no-repeat center center; background-size:cover;"></div>' : '');
+      $readMore = (get_sub_field('read_more_link') != '' ? '<a href="'.get_sub_field('read_more_link').'" class="column-read-more">Read More</a>' : '');
       if($i == 1):
         echo '<div class="row'.$justifyContentCenter.'">';
       endif;
 ?>
-<div class="col-sm-<?php echo $num; ?> text-center column-content">
-  <?php echo $columnImage; ?>
-  <?php echo $columnIcon; ?>
-  <?php echo $columnHeadline; ?>
-  <?php echo $columnBody; ?>
+<div class="col-sm-<?php echo $num; ?> text-center column-content" data-aos="flip-down" data-aos-once="true">
+  <div class="column-wrap">
+    <?php echo $columnImage; ?>
+    <?php echo $columnIcon; ?>
+    <?php echo $columnHeadline; ?>
+    <?php echo $columnBody; ?>
+  </div>
+  <div class="text-center">
+    <?php echo $readMore; ?>
+  </div>
 </div>
 <?php
   if($i === $rowCount){

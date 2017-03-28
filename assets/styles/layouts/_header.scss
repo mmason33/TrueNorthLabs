@@ -15,7 +15,7 @@
 }
 
 .header {
-  background: white; /*rgba(1,33,68,1);*/
+  background: #e3e3e3; /*rgba(1,33,68,1);*/
   padding: 1.75em .75em;
   outline: none;
   box-align: stretch;
@@ -44,19 +44,18 @@
   z-index: 3;
   box-shadow: 0px 4px 15px #6b6b6b;
   line-height: 1.5em;
-  margin-top: 25px;
   .nav-wrap{
     width: 75em;
     position: relative;
     padding: 0;
     #nav-brand{
-      background: url('/wp-content/uploads/2017/03/logo_big.png') top no-repeat;
+      background: url('/wp-content/uploads/2017/03/TRUE-NORTH-LOGO-COLOR-2016.png') top no-repeat;
       background-size: contain;
       display: block;
       position: absolute;
       top: 50%;
       left: 0;
-      height: 50px;
+      height: 65px;
       width: 203px;
       margin: 0;
       overflow: hidden;
@@ -71,7 +70,11 @@
     }
   }
 }
-
+@media screen and (max-width:1100px){
+  #nav-brand{
+    height: 49px !important;
+  }
+}
 .menu-item-has-children{
   position: relative;
   margin-right: 1.5em;
@@ -167,13 +170,13 @@ a#nav-icon {
 
 #primary-menu{
   li{
-    font-size: 97%;
+    font-size: 110%;
     float: left;
     position: relative;
     margin-right: 2.35rem;
     a{
       font-weight: 400;
-      color: #696969;
+      color: #3abea6;
       text-decoration: none;
     }
     ul.sub-menu{
@@ -330,7 +333,7 @@ a#nav-icon {
           height: 3px;
           width: 35px;
           top: 0;
-          background: #ef6f00;
+          background: #2777B1;
           border-radius: 1px;
           cursor: pointer;
           transition: all .5s ease-in-out;
@@ -387,7 +390,7 @@ a#nav-icon {
       }
       ul:not(.sub-menu) {
         position: fixed;
-        background: #969696;
+        background: #e3e3e3;
         border-left: 1px solid rgba(0,32,66,1);
         border-right: 1px solid rgba(0,32,66,1);
         border-top: 1px solid rgba(0,32,66,1);
@@ -419,7 +422,7 @@ a#nav-icon {
             margin: 0;
             padding: 15px 30px;
             border: none;
-            color: rgba(0,32,66,1);
+            color: #2777B1;
           }
         }
       }
