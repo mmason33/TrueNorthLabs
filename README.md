@@ -4,7 +4,7 @@ Developing a theme based on Sage. This is an extension of my [off-canvas-navigat
 
 Screenshots of the theme
 
-![screenshot one](https://github.com/mmason33/TrueNorthLabs/tree/master/assets/imagestrue-north-screen-1.jpg)
+![screenshot one](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-1.jpg)
 ![screenshot two](https://github.com/mmason33/TrueNorthLabs/tree/master/assets/imagestrue-north-screen-2.jpg)
 ![screenshot three](https://github.com/mmason33/TrueNorthLabs/tree/master/assets/imagestrue-north-screen-3.jpg)
 ![screenshot four](https://github.com/mmason33/TrueNorthLabs/tree/master/assets/imagestrue-north-screen-4.jpg)
