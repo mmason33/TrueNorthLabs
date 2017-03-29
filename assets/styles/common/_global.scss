@@ -4,10 +4,10 @@
 
 
 *::selection{
-    background: $brand-primary !important;
+    color: $brand-primary !important;
 }
 *::-moz-selection{
-    background: $brand-primary !important;
+    color: $brand-primary !important;
 }
 body{
   font-family: 'Ubuntu', sans-serif;
@@ -34,7 +34,7 @@ h4{
   font-size: 2em;
 }
 h5{
-  font-size: 1em;
+  font-size: 1.5em;
 }
 p{
   font-size: 1.2em;

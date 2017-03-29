@@ -36,9 +36,9 @@ $contentRelative = (get_field('cta_content_relative') == 1 ? 'style="position:re
                     <?php endif; ?>
                         <div class="row<?php echo $centerContent; ?>">
                           <?php if($contentRelative == true):?>
-                            <div class="col-xs-12">
+                            <div class="col-md-12">
                           <?php else: ?>
-                            <div class="col-xs-12 head">
+                            <div class="col-md-12 head">
                           <?php endif; ?>
                           <?php echo $CTAcontent; ?>
                           </div>

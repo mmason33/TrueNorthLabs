@@ -5,7 +5,6 @@
   h1,h2,h3,h4,h5,h6,p{
     color: white;
     text-shadow: 0px 3px 3px #000;
-    text-align: left;
   }
   .head{
     margin-top: 15em;
@@ -19,5 +18,10 @@
 .image-white{
   h2,p{
     color: white !important;
+  }
+}
+.page-id-194{
+  #hero{
+    height: 100vh !important;
   }
 }

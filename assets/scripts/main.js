@@ -19,6 +19,8 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        //JS FOR THE OFF-CANVAS NAV
         $(document).ready(function(){
             var body = $("body"),
                  navOverlay = $(".overlay"),
@@ -40,7 +42,9 @@
                 drop.preventDefault();
                 $(this).parent().toggleClass("open");
             });
+            //END OFF-CANVAS JS
 
+              //JS FOR THE AOS ANIMATION ON SCROLL
               AOS.init({
                 offset: 200,
                 duration: 600,
@@ -48,18 +52,21 @@
                 delay: 100,
               });
 
-              $("#js-rotating").Morphext({
-                  // The [in] animation type. Refer to Animate.css for a list of available animations.
-                  animation: "flipInX",
-                  // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+              //HELP FUNCTION FOR Morphext
+              function morphMethod(element,action,time){
+                $(element).Morphext({
+                  animation: action,
                   separator: ",",
-                  // The delay between the changing of each phrase in milliseconds.
-                  speed: 4000,
-                  complete: function () {
-                      // Called after the entrance animation is executed.
-                  }
-              });
-          });
+                  speed: time
+                });
+              }
+              //METHOD INVOKED
+              morphMethod('#js-sliding','fadeInUp',6000);
+              morphMethod('#js-fading','fadeInUp',6000);
+              morphMethod('#js-rotating','flipInX',4000);
+
+
+          });//END .ready
 
 
       },

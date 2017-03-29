@@ -32,3 +32,21 @@
     color: $brand-secondary;
   }
 }
+
+
+//FORMS PAGE DOWNLOAD BUTTON
+
+.download-btn{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  background: $brand-primary;
+  padding: 1em 2em;
+  border-radius: 10px;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.download-wrap{
+  padding: 4em 0;
+}
