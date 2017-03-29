@@ -24,3 +24,8 @@
 .light-500{
   font-weight: 500;
 }
+@media screen and (max-width:768px){
+  .pad-150{
+    padding: 1em !important;
+  }
+}

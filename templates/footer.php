@@ -1,5 +1,5 @@
 <footer>
-<div class="container"  data-aos="fade-up" data-aos-once="true">
+<div class="container"  data-aos="fade" data-aos-once="true">
   <div class="row justify-content-center">
     <div class="col-md-5 text-center">
       <img src="/wp-content/uploads/2017/03/TRUE-NORTH-LOGO-COLOR-2016-big.png" class="img-fluid">

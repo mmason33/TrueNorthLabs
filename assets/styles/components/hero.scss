@@ -25,3 +25,11 @@
     height: 100vh !important;
   }
 }
+@media screen and (max-width:1024px){
+  #hero{
+    height: 460px !important;
+    .head{
+      margin-top: 10em !important;
+    }
+  }
+}

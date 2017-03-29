@@ -17,23 +17,15 @@
   padding-left: 40px;
   margin-top: 2em;
   h5{
-    text-align: center;
     line-height: 2em;
     font-weight: 300;
     &:before{
       content: open-quote;
       color: $brand-primary;
-      font-size: 1.9em;
-      position: absolute;
-      left: 1.2em;
-      transform: rotate(5deg);
     }
     &:after{
       content: close-quote;
       color: $brand-primary;
-      font-size: 1.9em;
-      position: absolute;
-      transform: rotate(-5deg);
     }
   }
   small{

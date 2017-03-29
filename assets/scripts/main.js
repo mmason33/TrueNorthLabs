@@ -53,17 +53,21 @@
               });
 
               //HELP FUNCTION FOR Morphext
-              function morphMethod(element,action,time){
-                $(element).Morphext({
-                  animation: action,
-                  separator: ",",
-                  speed: time
-                });
+              function morphMethod(element,action,time,alt){
+                if($(window).width() > 1024){
+                  $(element).Morphext({
+                    animation: action,
+                    separator: ",",
+                    speed: time
+                  });
+                }else{
+                  $(element).html(alt);
+                }
               }
               //METHOD INVOKED
-              morphMethod('#js-sliding','fadeInUp',6000);
-              morphMethod('#js-fading','fadeInUp',6000);
-              morphMethod('#js-rotating','flipInX',4000);
+              morphMethod('#js-sliding','fadeInUp',6000,'Toxicology');
+              morphMethod('#js-fading','fadeInUp',6000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit');
+              morphMethod('#js-rotating','flipInX',4000, 'Reliability');
 
 
           });//END .ready
