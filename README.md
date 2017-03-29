@@ -1,15 +1,15 @@
 # TrueNorth Labs
 
-Developing a theme based on Sage. This is an extension of my [off-canvas-navigation repository](https://github.com/mmason33/off-canvas-navigation)
+Developing a theme based on Sage. This is an extension of my [off-canvas-navigation repository](https://github.com/mmmason3333/off-canvas-navigation)
 
 Screenshots of the theme
 
-![screenshot one](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-1.jpg)
-![screenshot two](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-2.jpg)
-![screenshot three](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-3.jpg)
-![screenshot four](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-4.jpg)
-![screenshot five](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-5.jpg)
-![screenshot six](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-6.jpg)
-![screenshot seven](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-7.jpg)
-![screenshot eight](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-8.jpg)
-![screenshot nine](mmason33.github.com/TrueNorthLabs/assets/images/true-north-screen-9.jpg)
+![screenshot one](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-1.jpg)
+![screenshot two](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-2.jpg)
+![screenshot three](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-3.jpg)
+![screenshot four](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-4.jpg)
+![screenshot five](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-5.jpg)
+![screenshot six](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-6.jpg)
+![screenshot seven](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-7.jpg)
+![screenshot eight](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-8.jpg)
+![screenshot nine](github.com/mmason33/TrueNorthLabs/assets/images/true-north-screen-9.jpg)
