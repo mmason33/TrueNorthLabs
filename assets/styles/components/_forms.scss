@@ -3,7 +3,7 @@
 .wpcf7{
   font-family: 'Montserrat', sans-serif;
   h2{
-    color: #002042;
+    color: $brand-primary;
     margin-bottom: .5em;
   }
   h6{
@@ -15,7 +15,7 @@
     padding: 0 1.5em 0 1.5em;
     background: transparent;
     .row.sub{
-      margin-top: 1em;
+      // margin-top: 1em;
     }
     .wpcf7-submit{
       font-family: 'Montserrat', sans-serif;

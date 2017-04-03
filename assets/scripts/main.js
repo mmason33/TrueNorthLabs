@@ -67,8 +67,11 @@
               //METHOD INVOKED
               morphMethod('#js-sliding','fadeInUp',6000,'Toxicology');
               morphMethod('#js-fading','fadeInUp',6000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit');
-              morphMethod('#js-rotating','flipInX',4000, 'Reliability');
+              // morphMethod('#js-rotating','flipInX',4000, 'Reliability');
 
+              $(function(){
+                $('.column-wrap').matchHeight();
+              });
 
           });//END .ready
 
@@ -78,24 +81,10 @@
         // JavaScript to be fired on all pages, after page specific JS is fired
       }
     },
-    // LEADERSHIP TEMPLATE
-    'page_template_leadership': {
+    // CONTACT TEMPLATE
+    'page_template_contact': {
       init: function() {
-        // JavaScript to be fired on the home page
-        $(document).ready(function(){
-          function getWidth( ele, w){
-            if ( w >= 575 ){
-              $(ele).css('background','#ebebeb');
-            }else{
-              $(ele).css('background','#fff');
-            }
-          }
-          getWidth('.leadership-grid .col-lg-9:odd,.leadership-grid .col-lg-3:odd', $(window).width() );
 
-          $('.leadership-bio:odd').css('padding-left', 64);
-
-
-        });
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
