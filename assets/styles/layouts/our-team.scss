@@ -2,6 +2,9 @@
   .our-team-hero{
     padding-top: 6.4em;
   }
+  .staff-wrap{
+    padding: 3em 0;
+  }
   h4{
     margin-top: 1rem;
   }
@@ -22,6 +25,7 @@
     }
   }
   .staff-member{
+    margin-top: 1em;
     a{
       text-decoration: none;
     }
@@ -40,17 +44,17 @@
     .staff-image{
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing: grayscale;
-      &:before{
-        content: url('/wp-content/uploads/2017/03/bio-ribbon.png');
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        height: 0;
-        transition: ease all 0.3s;
-      }
+      // &:before{
+      //   content: url('/wp-content/uploads/2017/03/bio-ribbon.png');
+      //   position: absolute;
+      //   top: 0;
+      //   left: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   opacity: 0;
+      //   height: 0;
+      //   transition: ease all 0.3s;
+      // }
     }
     .staff-title{
       padding: 0 4em;

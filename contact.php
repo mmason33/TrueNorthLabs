@@ -10,7 +10,7 @@
       <div class="contact-info">
       <div class="row">
         <div class="col-md-12 text-center">
-          <img src="/wp-content/uploads/2017/03/TRUE-NORTH-LOGO-COLOR-2016.png" class="img-fluid">
+          <img src="/wp-content/uploads/2017/04/TRUE-NORTH-LOGO-COLOR-2016.png" class="img-fluid">
           <p>Have any questions about our services? Contact us directly by phone, email or the form provided. A representative will be with you as soon as possible.</p>
         </div>
         <div class="col-md-12 text-center">

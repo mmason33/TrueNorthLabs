@@ -5,7 +5,7 @@
                       <a id="nav-icon" href="#" class=""><span></span></a>
             <?php
                  wp_nav_menu( array(
-                     'menu'              => 'Main Menu',
+                     'menu'              => 'Main',
                      'theme_location'    => 'primary',
                      'menu_id'           => 'primary-menu',
                      'menu_class'        => 'menu dropdown',
