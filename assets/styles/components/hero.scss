@@ -25,10 +25,10 @@
   #hero{
     height: 460px;
     .head{
-      margin-top: 10em !important;
+      margin-top: 10em;
     }
   }
-  .page-id-159 #hero,.page-id-216 #hero{
+  body.services #hero, body.our-team #hero{
     height: 250px !important;
   }
 }

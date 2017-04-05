@@ -30,13 +30,7 @@ use Roots\Sage\Wrapper;
       </div>
     </section>
   <?php else: ?>
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-md-12"> -->
-            <?php include Wrapper\template_path(); ?>
-        <!-- </div>
-      </div>
-    </div> -->
+      <?php include Wrapper\template_path(); ?>
   <?php endif; ?>
     <?php
       do_action('get_builder');
