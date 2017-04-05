@@ -38,7 +38,7 @@ $justifyContentCenter = (get_sub_field('justify_content_center') != '' ? ' justi
         echo '<div class="row'.$justifyContentCenter.'">';
       endif;
 ?>
-<div class="col-sm-<?php echo $num; ?> text-center column-content" data-aos="slide-up" data-aos-once="true">
+<div class="col-md-<?php echo $num; ?> text-center column-content" data-aos="slide-up" data-aos-once="true">
   <div class="column-wrap">
     <?php echo $columnImage; ?>
     <?php echo $columnIcon; ?>

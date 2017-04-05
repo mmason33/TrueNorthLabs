@@ -40,3 +40,28 @@
     }
   }
 }
+
+/*===== FORMS PAGE ====*/
+
+.page-id-194{
+  #hero{
+    height: 100vh !important;
+  }
+  .download-wrap{
+    .col-xs-4:nth-of-type(2){
+      margin: 0 2em 0 2em;
+    }
+  }
+}
+@media screen and (max-width:1024px){
+  .page-id-194{
+    #hero{
+      height: 100% !important;
+    }
+    .download-wrap{
+      .col-xs-4:nth-of-type(2){
+        margin: 0 10px 0 10px;
+      }
+    }
+  }
+}
