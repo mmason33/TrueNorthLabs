@@ -50,3 +50,8 @@
 .download-wrap{
   padding: 4em 0;
 }
+@media screen and (max-width:1024px){
+  .download-btn{
+    padding: 10px;
+  }
+}

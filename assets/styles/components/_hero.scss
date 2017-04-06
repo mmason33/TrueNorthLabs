@@ -20,16 +20,15 @@
     color: white !important;
   }
 }
-.page-id-194{
-  #hero{
-    height: 100vh !important;
-  }
-}
+
 @media screen and (max-width:1024px){
   #hero{
-    height: 460px !important;
+    height: 460px;
     .head{
-      margin-top: 10em !important;
+      margin-top: 10em;
     }
+  }
+  body.services #hero, body.our-team #hero{
+    height: 250px !important;
   }
 }
