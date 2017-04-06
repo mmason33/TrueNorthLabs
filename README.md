@@ -7,7 +7,6 @@ Developing a theme based on Sage. This is an extension of my [off-canvas-navigat
 
 Screenshots of the theme:
 
-
 ![screenshot one](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-1.jpg)
 ![screenshot two](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-2.jpg)
 ![screenshot three](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-3.jpg)
