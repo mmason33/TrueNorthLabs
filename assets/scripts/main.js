@@ -50,6 +50,7 @@
                 duration: 600,
                 easing: 'ease-in-sine',
                 delay: 100,
+                disable: window.innerWidth < 1024
               });
 
               //HELP FUNCTION FOR Morphext
@@ -65,9 +66,8 @@
                 }
               }
               //METHOD INVOKED
-              morphMethod('#js-sliding','fadeInUp',6000,'Toxicology');
-              morphMethod('#js-fading','fadeInUp',6000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit');
-              // morphMethod('#js-rotating','flipInX',4000, 'Reliability');
+              morphMethod('#js-sliding','fadeInUp',3000,'Toxicology');
+
 
               $(function(){
                 $('.column-wrap').matchHeight();

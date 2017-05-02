@@ -2,11 +2,15 @@
 
 Developing a theme based on Sage. This is an extension of my [off-canvas-navigation repository](https://github.com/mmmason3333/off-canvas-navigation).
 
+<<<<<<< HEAD
+=======
+
+[Live Link (Still under development)](http://true-northlabs.com)
+>>>>>>> 0b46bee068eaf2470636bf06b81c0547df0c355a
 
 [Live Link (Still under development)](http://true-northlabs.com)
 
 Screenshots of the theme:
-
 
 ![screenshot one](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-1.jpg)
 ![screenshot two](https://github.com/mmason33/TrueNorthLabs/blob/master/assets/images/TRUE-NORTH-SCREEN-2.jpg)

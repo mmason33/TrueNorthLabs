@@ -1,4 +1,24 @@
 .page-template-our-team{
+  #hero {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 400px;
+      width: 100%;
+      background: rgba(0,0,0, .4);
+
+    }
+  }
+  #cta-content {
+    .head *, .head {
+      z-index: 3;
+    }
+  }
+  .head {
+    margin-top: 12em !important;
+  }
   .our-team-hero{
     padding-top: 6.4em;
   }
@@ -8,53 +28,14 @@
   h4{
     margin-top: 1rem;
   }
-  .clinical-staff,.therapist,.case-manager,.client-services{
-    padding: 5em 0;
-  }
-  #our-team section:nth-of-type(even){
-    background: #ebebeb;
-  }
-  .our-team-hero .col-lg-9:nth-of-type(odd), .our-team-hero .col-lg-3:nth-of-type(even){
-    background: #ebebeb;
-  }
-  .staff-section-title{
-    background: $brand-secondary;
-    padding: 2em 0;
-    .white{
-      margin: 0;
-    }
-  }
   .staff-member{
-    margin-top: 1em;
+    margin-top: 2rem;
     a{
       text-decoration: none;
-    }
-    &:after{
-      content: '';
-      border: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 100%;
-      transition: width ease 0.3s;
-      transform-origin: left;
-
     }
     .staff-image{
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing: grayscale;
-      // &:before{
-      //   content: url('/wp-content/uploads/2017/03/bio-ribbon.png');
-      //   position: absolute;
-      //   top: 0;
-      //   left: 0;
-      //   right: 0;
-      //   bottom: 0;
-      //   opacity: 0;
-      //   height: 0;
-      //   transition: ease all 0.3s;
-      // }
     }
     .staff-title{
       padding: 0 4em;
@@ -65,12 +46,14 @@
   }
   .hidden-sm-up{
     a{
-      border: 1px solid #333;
       padding: 8px 20px;
       font-size: 1rem;
-      background: #002042;
+      background: #3abea6;
       color: #fff;
       border-radius: 5px;
+      &:focus, &:active, &:hover {
+        outline: none;
+      }
     }
   }
 }
