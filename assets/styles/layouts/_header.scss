@@ -427,7 +427,7 @@ nav#off-canvas-nav{
       clear: both;
       width: 100%;
       margin: 0!important;
-      padding: 25px 0;
+      padding: 0;
       border-bottom: 1px solid #6b6b6b;
       font-size: 1.25em;
       transition: ease all 0.3s;
@@ -435,14 +435,14 @@ nav#off-canvas-nav{
         display: block;
         line-height: 1.5;
         margin: 0;
-        padding: 15px 30px;
+        padding: 40px 30px;
         border: none;
       }
       a{
         display: block;
         line-height: 1.5;
         margin: 0;
-        padding: 15px 30px;
+        padding: 40px 30px;
         border: none;
         color: #6b6b6b;
       }

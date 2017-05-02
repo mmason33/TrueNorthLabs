@@ -22,7 +22,7 @@
         <?php //start the loop ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                 <?php $title = get_field('staff_title'); ?>
-                <div class="col-md-6 col-xl-3 col-lg-4 text-center staff-member" data-aos="zoom-in" data-aos-once="true">
+                <div class="col-md-6 col-xl-4 col-lg-4 text-center staff-member" data-aos="zoom-in" data-aos-once="true">
                     <div class="staff-image">
                       <a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url(); ?>" class="img-fluid rounded"></a>
                         <h4 class="staff-name"><a href="<?php the_permalink(); ?>" class="staff-anchor"><?php the_title(); ?></a></h4>
