@@ -3,7 +3,7 @@
  * Template Name: Contact Page Template
  */
 ?>
-<section id="contact" style="background:url('/wp-content/uploads/2017/04/Abstract-and-colorful-background-HD-wallpaper-1.jpg')no-repeat center center;background-size:cover;">
+<section id="contact">
 <div class="container">
   <div class="row">
     <div class="col-md-5 head" data-aos="fade" data-aos-once="true" data-mh="contact">
@@ -19,7 +19,7 @@
           <p>Costa Mesa, CA 92627</p>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#">
+          <a href="tel:9492699263">
           <i class="fa fa-mobile fa-5x"></i>
           <p>Phone</p>
           </a>
@@ -31,7 +31,7 @@
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#">
+          <a href="mailto:true-northlabs.com">
           <i class="fa fa-envelope fa-5x"></i>
           <p>Email</p>
         </a>
