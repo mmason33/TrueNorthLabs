@@ -47,8 +47,8 @@
               //JS FOR THE AOS ANIMATION ON SCROLL
               AOS.init({
                 offset: 200,
-                duration: 600,
-                easing: 'ease-in-sine',
+                duration: 200,
+                easing: 'ease',
                 delay: 100,
                 disable: window.innerWidth < 1024
               });
