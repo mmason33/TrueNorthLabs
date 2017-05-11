@@ -17,7 +17,9 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
-      get_template_part('includes/hero-section');
+      if(!is_page(420)):
+        get_template_part('includes/hero-section');
+      endif;
     ?>
     <?php if(get_field('main_bg_color') != ''): ?>
       <section class="section-title" style="background-color:<?php echo get_field('main_bg_color'); ?>">
