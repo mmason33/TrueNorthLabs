@@ -73,7 +73,7 @@
 @media screen and (max-width:1100px){
   #nav-brand{
     height: 40px !important;
-    background: url('/wp-content/uploads/2017/04/TRUE-NORTH-LOGO-COLOR-2016-big-300x85-1-e1491413236695.png') top no-repeat !important;
+    // background: url('/wp-content/uploads/2017/04/TRUE-NORTH-LOGO-COLOR-2016-big-300x85-1-e1491413236695.png') top no-repeat !important;
   }
 }
 .menu-item-has-children{
@@ -397,7 +397,7 @@ a#nav-icon.open{
 .header{
   .nav-wrap {
     #nav-brand{
-      left: 1.25rem;
+      left: -30px;
     }
   }
 }

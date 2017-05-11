@@ -37,9 +37,9 @@
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    .staff-title{
-      padding: 0 4em;
-    }
+    // .staff-title{
+    //   padding: 0 4em;
+    // }
     &:hover .staff-image::before{
       opacity: 1;
     }
@@ -63,9 +63,9 @@
     .leadership-bio{
       padding: 2.25em;
     }
-    .staff-title{
-      padding: 0 1em;
-    }
+    // .staff-title{
+    //   padding: 0 1em;
+    // }
   }
 }
 
@@ -91,5 +91,19 @@
 @media screen and (max-width:576px){
   .our-team-hero .col-lg-9:nth-of-type(odd), .our-team-hero .col-lg-3:nth-of-type(even){
     background: #fff !important;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  body.our-team #hero:after {
+    height: 250px !important;
+  }
+
+  body.our-team .head {
+    margin-top: 9em !important;
+  }
+
+  .staff-wrap {
+    padding: 0 !important;
   }
 }

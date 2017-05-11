@@ -21,7 +21,7 @@
       <a href="https://www.google.com/maps/place/2183+Fairview+Rd+%23100,+Costa+Mesa,+CA+92627/data=!4m2!3m1!1s0x80dcdf9c3cf375ed:0x893a4fb449770b66?sa=X&ved=0ahUKEwjw0ZnUpprTAhWBv7wKHXCMDJ8Q8gEIGTAA" target="_blank"><i class="fa fa-map"></i> Get Directions</a>
       <br/>
       <br/>
-      <h6><a href="#">info@true-northlabs.com</a></h6>
+      <h6><a href="mailto:info@true-northlabs.com">info@true-northlabs.com</a></h6>
 
     </div>
     <div class="col-md-4 offset-md-1 text-center">
